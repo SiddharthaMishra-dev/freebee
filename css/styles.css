@@ -1,0 +1,147 @@
+:root {
+  --clr-primary-1: #90e0ef;
+  --clr-primary-2: #03045e;
+  --clr-primary-3: #fff;
+  --clr-primary-4: #5b4b8a;
+  --clr-primary-5: #caf0f8;
+  --clr-primary-6: #00b4d8;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  color: var(--clr-primary-1);
+  font-weight: 900;
+  margin: 3% 5% 5% 0;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+#showcase {
+  background-color: var(--clr-primary-2);
+  text-align: left;
+}
+
+.navigation {
+  padding-bottom: 5%;
+}
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.showcase-detail {
+  font-size: 1.5rem;
+}
+.icon {
+  margin: 10px 10px 10px 0;
+}
+.phone-img {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 200px;
+}
+
+/* features */
+#features {
+  padding: 5% 15%;
+  position: relative;
+  background-color: var(--clr-primary-3);
+}
+.feature-box {
+  padding: 7%;
+  line-height: 1.5;
+}
+.feature-icon {
+  color: var(--clr-primary-4);
+  margin-bottom: 1rem;
+}
+
+/* Reason */
+#reasons {
+  background-color: var(--clr-primary-2);
+  color: var(--clr-primary-5);
+}
+.reason-text {
+  text-align: left;
+  font-size: 1.3rem;
+}
+.customize-img {
+  width: 40%;
+}
+.cloud-img {
+  width: 50%;
+}
+.reason-heading {
+  padding-bottom: 3%;
+}
+
+/* review */
+#reviews {
+  background-color: var(--clr-primary-6);
+
+  color: var(--clr-primary-5);
+}
+.review-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.review-description {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  padding: 20px 0 25px;
+}
+/* FAQ */
+#faq {
+  padding: 7% 15%;
+}
+#contact-form {
+  height: 100vh;
+  /* padding: 7% 15%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-primary-6);
+}
+form {
+  text-align: left;
+  background-color: var(--clr-primary-1);
+  padding: 2rem;
+  border-radius: 0.25rem;
+}
+.contact-input {
+  border: #90e0ef solid;
+  border-radius: 0.5rem;
+  box-shadow: none;
+  padding: 0.5rem;
+  margin: 10px 0 10px 0;
+}
+.message {
+  margin: 10px 0 10px 0;
+}
+.submit-btn {
+  width: 100%;
+  background-color: var(--clr-primary-2);
+  color: var(--clr-primary-3);
+  font-weight: bolder;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  box-shadow: none;
+  padding: 1rem;
+}
+@media (max-width: 995px) {
+  .phone-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #showcase {
+    text-align: center;
+  }
+}
